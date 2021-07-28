@@ -2,6 +2,8 @@
 
 **See the [commitlint.yml](.github/workflows/commitlint.yml) for the complete workflow.**
 
+Check the [*Action* tab](https://github.com/mluppi/commitlint-pr-demo/actions/workflows/commitlint.yml) to see the successful and failed actions.
+
 ---
 
 The straight-forward solution is to use the `--to` and `--from` arguments of `commitlint` with the SHA-1 values instead of the branch names or relative references. On the one hand, this reliably solves the problem of unknown revisions or paths in the working tree. On the other hand, only commits in scope of the PR will be checked. As a sidenote: GitHub uses the same references (SHA-1) for the ad-hoc merge that is being checked-out.
