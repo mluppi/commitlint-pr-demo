@@ -2,7 +2,7 @@
 
 **See the [commitlint.yml](.github/workflows/commitlint.yml) for the complete workflow.**
 
-Check the [*Action* tab](https://github.com/mluppi/commitlint-pr-demo/actions/workflows/commitlint.yml) to see the successful and failed actions.
+Check in the [*Action* tab](https://github.com/mluppi/commitlint-pr-demo/actions/workflows/commitlint.yml) or the [closed pull requests](https://github.com/mluppi/commitlint-pr-demo/pulls?q=is%3Apr+is%3Aclosed) to see the status (successful/failed) of the actions.
 
 ---
 
