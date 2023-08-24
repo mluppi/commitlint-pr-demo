@@ -14,3 +14,4 @@ We need the base-SHA as well as the head-SHA. In a GitHub action those values ar
 ```
 npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
 ```
+ok
